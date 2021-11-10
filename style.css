@@ -1,0 +1,62 @@
+body{
+    background-color: cornsilk;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+.container{
+    background-color: darksalmon;
+    border-radius: 15px;
+    margin: 0;
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);  
+    text-align: center;
+}
+
+#btn{
+    margin-top: 30px;   
+    background-color: cornsilk;
+    border-radius: 15px;
+    border-color: darksalmon;
+    padding: 15px;
+
+    font-family: roboto;
+    font-weight: 800;
+    font-size: 18px;
+    color: black;
+    letter-spacing: 2px;
+}
+
+#output{
+    font-size: 26px;
+    padding-top: 60px;
+    padding-right: 30px;
+    padding-left:30px;
+    line-height: 40px;
+    font-family: Cormorant Garamond;
+    font-weight: 600;
+    
+}
+
+.images{
+    position: relative;
+   
+}
+
+img{
+    position: absolute;
+    width: 2400px;
+    padding-left: 300px;
+    padding-bottom: 100px;
+
+}
